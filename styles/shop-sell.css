@@ -1,0 +1,27 @@
+/* 清除浮动 */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+/* 商家中心中间的板块 */
+
+.public_body>div:first-child {
+    float: left;
+}
+
+.business_center {
+    width: 932px;
+    margin-left: 270px;
+    background-color: rgba(15, 3, 3, 0.356);
+}
+
+.business_center .business_title {
+    width: 100%;
+    border-bottom: 1px solid #e05;
+
+    font-size: 18px;
+    color: #333;
+}
