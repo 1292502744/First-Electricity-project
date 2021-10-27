@@ -1,0 +1,78 @@
+.produce_list span {
+    display: inline-block;
+    width: 105px;
+
+    font-size: 14px;
+    color: #666;
+    text-align: right;
+}
+
+.produce_list span::before {
+    content: "※";
+
+    color: #e05;
+    font-size: 10px;
+}
+
+.produce_list input {
+    width: 280px;
+    height: 40px;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    color: #aaa;
+    text-indent: 10px;
+
+    outline: none;
+}
+
+/* 上传文件 */
+.produce_name .produce_title {
+    vertical-align: top;
+}
+
+.produce_name .upload {
+    display: inline-block;
+    position: relative;
+
+    width: 155px;
+    height: 110px;
+    border: 1px dashed #000;
+    margin-bottom: 10px;
+
+    cursor: pointer;
+    z-index: 10;
+}
+
+#upLoad {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.upload .icon-add {
+    font-size: 50px;
+}
+
+.upload p {
+    margin: 0;
+    text-align: center;
+}
+
+.upload img {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
