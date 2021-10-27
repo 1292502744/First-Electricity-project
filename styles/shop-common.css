@@ -36,3 +36,34 @@
     color: #e05;
     font-size: 14px;
 }
+
+/* 分页器 */
+.business_center .show_page ul {
+    float: right;
+
+    padding-right: 30px;
+}
+
+.business_center .show_page ul li {
+    display: inline-block;
+
+    width: 37px;
+    height: 37px;
+    background-color: #f1f1f1;
+
+    text-align: center;
+    line-height: 37px;
+    color: #666;
+
+    cursor: pointer;
+}
+
+.change_page {
+    margin: 0 10px;
+}
+
+.business_center .show_page ul .change_page_color {
+    background-color: #e05;
+
+    color: #fff;
+}
