@@ -38,13 +38,18 @@
 }
 
 /* 分页器 */
-.business_center .show_page ul {
+.business_center .show_page {
     float: right;
 
-    padding-right: 30px;
+    margin-top: 15px;
 }
 
-.business_center .show_page ul li {
+.business_center .show_page ul {
+    display: inline-block;
+}
+
+.business_center .show_page ul li,
+.change_page {
     display: inline-block;
 
     width: 37px;
