@@ -44,7 +44,7 @@
     z-index: 10;
 }
 
-#upLoad {
+.produce_name .upload .upLoad {
     position: absolute;
     top: 50%;
     left: 50%;

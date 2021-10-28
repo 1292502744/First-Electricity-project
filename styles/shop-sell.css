@@ -4,7 +4,8 @@
 /* 上面的标题板块 */
 
 .business_main_content {
-    padding: 37px 16px 0 54px;
+    height: 40px;
+    padding: 37px 16px 20px 54px;
 }
 
 .business_main_title {
@@ -45,17 +46,21 @@
     color: #fff;
 }
 
+.business_main {
+    padding-left: 37px;
+}
+
 /* 产品的主要内容 */
 /* 表头 */
 
-.business_main_content table {
+.business_box table {
     border: 1px solid #000;
     border-collapse: collapse;
 
     text-align: center;
 }
 
-.business_main_content table thead {
+.business_box table thead {
     height: 50px;
     background-color: #f1f1f1;
 }
@@ -109,17 +114,17 @@
 
 /* tbody内容 */
 
-.business_main_content table tbody tr {
+.business_box table tbody tr {
     height: 75px;
     border-bottom: 1px dashed #000;
 }
 
-.business_main_content table tbody tr img {
+.business_box table tbody tr img {
     width: 70px;
     height: 55px;
 }
 
-.business_main_content table tbody .delete {
+.business_box table tbody .delete {
     display: inline-block;
 
     width: 40px;
@@ -139,6 +144,7 @@
 .business_center .show_page ul {
     float: right;
 
+    margin-top: 15px;
     padding-right: 30px;
 }
 

@@ -71,7 +71,6 @@
 
 /* 设置隐藏 */
 .onsell,
-.selled,
-.show_page {
+.selled{
     display: none;
 }
