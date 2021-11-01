@@ -2,7 +2,7 @@ $(function(){
     // 用户名获取
     $('.User').blur(function () {
         var str = $('.User').val();
-        var ret = /^[A-z][0-9]{6,8}/;
+        var ret = /^[A-z][0-9]{6,8}$/;
        if (str){
             if (!ret.test(str)){
              $(".warn").css({
@@ -25,7 +25,7 @@ $(function(){
     // 密码获取
     $('.Pass').blur(function () {
         var str = $('.Pass').val();
-        var ret = /[A-z0-9]{6,8}/;
+        var ret = /^[A-z0-9]{6,8}$/;
         if (str){
             if (!ret.test(str)){
                 $(".warn_P").css({
@@ -67,7 +67,7 @@ $(function(){
     // 电子邮箱获取
     $('.Email').blur(function () {
         var str = $('.Email').val();
-        var ret = /^[0-9A-z_]{5,16}@(qq)(\.com)$/;
+        var ret = /^[0-9A-z_]{5,16}(@qq)(\.com)$/;
         if (str){
             if (!ret.test(str)){
                 $(".warn_E").css({
