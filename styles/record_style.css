@@ -89,8 +89,8 @@ a{
     border-radius: 15px 15px 0 0;
 }
 
-.User,
-.Pass
+#User,
+#Pass
 {
     width: 270px;
     height: 30px;
@@ -103,7 +103,7 @@ a{
     float: left;
 }
 
-.Code{
+#Code{
     width: 150px;
     height: 30px;
     border-radius: 50px;
