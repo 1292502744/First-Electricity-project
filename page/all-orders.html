@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./attention.css">
-    <script src="../public_images/font_smbuwzkxv08/iconfont.js"></script>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../public/attention.css">
+    <link rel="stylesheet" href="../styles/shop-common.css">
+    <link rel="stylesheet" href="../styles/all-order.css">
+    <script src="../public/public_images/font_smbuwzkxv08/iconfont.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -90,7 +93,7 @@
                     </div>
                     <div class="neck_image">
                         <p class="neck_font">关注微信</p>
-                        <img src="../public_images/1_03.jpg" alt="">
+                        <img src="../public/public_images/1_03.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -113,7 +116,7 @@
         </div>
         <div class="center_line"></div>
         <!-- 左边竖导航栏 -->
-        <div class="public_body">
+        <div class="public_body clearfix">
            <div>
                 <div>
                     <div class="left_title">
@@ -139,6 +142,131 @@
                     <p class="left_cont">商家入驻</p>
                     <p class="left_cont">商家中心</p>
                     <p class="left_cont">物流服务</p>
+                </div>
+           </div>
+           <!-- 订单管理 -->
+           <div class="order_content business_center">
+                <h1 class="order_title business_title">全部订单</h1>
+                <!-- 全部订单头部 -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="product_picture">商品图片</th>
+                            <th class="number">订单编号</th>
+                            <th class="price">订单总价</th>
+                            <th class="product_class">订单状态</th>
+                            <th class="data">下单日期</th>
+                            <th class="recipients">收件人</th>
+                            <th class="address">收件地址</th>
+                            <th class="telephone">联系电话</th>
+                            <th class="operation">操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="../images/pic_proudic.png" alt="">
+                            </td>
+                            <td>100987</td>
+                            <td>467.00</td>
+                            <td>未支付</td>
+                            <td>2016/9/1 16:07:25</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <span class="pay">付款</span>
+                                <span class="cancel">取消订单</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="../images/pic_two.png" alt="">
+                            </td>
+                            <td>100987</td>
+                            <td>467.00</td>
+                            <td>已支付</td>
+                            <td>2016/9/1 16:07:25</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <span class="pay">删除</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="../images/pic_three.png" alt="">
+                            </td>
+                            <td>100987</td>
+                            <td>467.00</td>
+                            <td>未支付</td>
+                            <td>2016/9/1 16:07:25</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <span class="pay">付款</span>
+                                <span class="cancel">取消订单</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="../images/pic_four.png" alt="">
+                            </td>
+                            <td>100987</td>
+                            <td>467.00</td>
+                            <td>已支付</td>
+                            <td>2016/9/1 16:07:25</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <span class="pay">删除</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="../images/pic_five.png" alt="">
+                            </td>
+                            <td>100987</td>
+                            <td>467.00</td>
+                            <td>未支付</td>
+                            <td>2016/9/1 16:07:25</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <span class="pay">付款</span>
+                                <span class="cancel">取消订单</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="../images/pic_six.png" alt="">
+                            </td>
+                            <td>100987</td>
+                            <td>467.00</td>
+                            <td>已支付</td>
+                            <td>2016/9/1 16:07:25</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <span class="pay">删除</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="show_page clearfix">
+                    <ul>
+                        <li class="change_page">&lt;</li>
+                        <li class="change_page_color">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li class="change_page">&gt;</li>
+                    </ul>
                 </div>
            </div>
         </div>
@@ -181,7 +309,7 @@
                 <div class="bottom_cont">
                     <p>关注微信</p>
                     <div class="neck_image">
-                        <img src="../public_images/1_03.jpg" alt="">
+                        <img src="../public/public_images/1_03.jpg" alt="">
                     </div>
                 </div>
                 
