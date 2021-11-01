@@ -1,0 +1,123 @@
+/* 左边竖导航栏 */
+
+.consignee_left {
+    float: left;
+}
+
+.consigness_message {
+    border-left: 2px solid #e05;
+
+    background-color: #fff;
+
+    position: relative;
+}
+
+.consigness_message::after {
+    content: '\e914';
+
+    font-family: 'icomoon';
+    font-size: 14px;
+    color: #e05;
+    
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+/* 右边收货信息内容 */
+
+.consignee_right {
+    width: 930px;
+
+    float: right;
+}
+/* 收货信息标题 */
+
+.consignee_message_top {
+    width: 100%;
+    border-bottom: 2px solid #e05;
+}
+
+.consignee_message_top i {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    
+    background: #e05;
+
+    vertical-align: middle;
+
+    margin-left: 10px;
+}
+
+.consignee_message_top span {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #333;
+
+    margin-left: 5px;
+}
+
+/* 收货信息主体 */
+
+.consignee_message_body{
+    margin-top: 26px;
+    margin-left: 10px;
+}
+
+.consignee_message_body table {
+    width: 908px;
+
+    border: 1px solid #ddd;
+    border-collapse:collapse;
+
+    text-align: left;
+}
+
+.consignee_message_body table tr:first-child {
+    text-indent: 10px;
+    line-height: 50px;
+
+    color: black;
+    background-color: #f1f1f1;
+}
+
+.consignee_message_body table tr:first-child th {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.consignee_message_body table tr:not(:first-child) {
+    border-bottom: 1px dashed #ddd;
+
+    font-size: 12px;
+    line-height: 50px;
+    text-indent: 10px;
+}
+
+.consignee_message_body table tr button {
+    width: 40px;
+    height: 20px;
+
+    border-radius: 5px;
+
+    background-color: #e05;
+
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    
+    margin-right: 5px;
+}
+
+.consignee_table_last a{
+    font-size: 14px;
+    color: #e05;
+}
+
+.icon-font {
+    font-family: 'icomoon';
+    margin-right: 5px;
+}
+

@@ -1,0 +1,246 @@
+.border {
+    border: 1px solid black;
+}
+
+/* 左边竖导航栏 */
+
+.shopping_left {
+    float: left;
+}
+
+/* 右边购物车内容 */
+
+.shopping_right {
+    width: 930px;
+
+    float: right;
+}
+
+/* 购物车标题 */
+
+.shopping_right_head {
+    width: 100%;
+    border-bottom: 2px solid #e05;
+}
+
+.shopping_right_head i {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    
+    background: #e05;
+
+    vertical-align: middle;
+
+    margin-left: 10px;
+}
+
+.shopping_right_head span {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #333;
+
+    margin-left: 5px;
+}
+
+/* 购物车操作台 */
+
+.shopping_right_body,
+.shopping_collect_box
+{
+    padding-top: 26px;
+    padding-left: 10px;
+}
+
+/* 表格 */
+
+.shopping_right_body table {
+    width: 908px;
+
+    border: 1px solid #ddd;
+    border-collapse:collapse;
+
+    text-align: left;
+}
+
+/* 表格头部 */
+
+.shopping_right_body table thead tr{
+    text-indent: 10px;
+    line-height: 50px;
+
+    color: black;
+    background-color: #f1f1f1;
+}
+
+.shopping_right_body table thead tr th {
+    font-size: 14px;
+    font-weight: 600; 
+}
+
+.shopping_head_check {
+    margin-right: 10px;
+    vertical-align: -1px;
+}
+
+/* 表格主体 */
+
+.shopping_right_body table tbody tr{
+    border-bottom: 1px dashed #ddd;
+
+    font-size: 12px;
+    line-height: 50px;
+    text-indent: 10px;
+    color: #666;
+}
+
+.shopping_check {
+    vertical-align: 20px;
+    margin-right: 10px;
+}
+
+.shopping_delete span{
+    cursor: pointer;
+}
+
+.shopping_delete span:hover {
+    color: #e05;
+}
+
+.shopping_right_body table tbody tr em{
+    display: inline-block;
+    width: 70px;
+    height: 55px;
+
+    margin-top: 18px;
+
+    background: url('../images/图层336.png') no-repeat;
+    background-position: -13px -15px;
+}
+
+.shopping_right_body table tbody tr td button {
+    width: 30px;
+    height: 35px;
+
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #000;
+
+    background: #f0f0f0;
+}
+
+.shopping_quantity {
+    width: 30px;
+    height: 35px;
+
+    text-align: center;
+}
+
+/* 结算 */
+
+.shopping_close {
+    float: right;
+
+    width: 430px;
+
+    margin-top: 30px;
+
+    position: relative;
+}
+
+.shopping_close h3 {
+    float: left;
+    margin-left: 5px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #333;
+}
+
+.shopping_close h1 {
+    /* width: 130px; */
+    float: right;
+    margin-right: 105px;
+
+    font-size: 24px;
+    color: #e05;
+
+    text-align: right;
+    line-height: 35px;
+
+}
+
+.shopping_close button {
+    width: 95px;
+    height: 35px;
+
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    
+    background: #e05;
+
+    position: absolute;
+    right: 5px;
+}
+
+/* 最近收藏 */
+
+.shopping_collect {
+    width: 908px;
+    margin-top: 14px;
+    border: 1px solid #ddd;
+}
+
+.shopping_collect_head {
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.shopping_collect_head i {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin: 0 7px;
+    border-radius:50%;
+
+    background: #e05;
+
+    vertical-align: middle;
+}
+
+.shopping_collect_head span {
+    font-stretch: 14px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #333;
+}
+
+.shopping_collect ul {
+    width: 100%;
+    margin: 10px 0 20px 0; 
+}
+
+.shopping_collect ul li {
+    float: left;
+    width: 160px;
+
+    margin: 0 10px;
+}
+
+.shopping_collect p {
+    font-size: 12px;
+    color: #e05;
+}
+
+.shopping_collect ul li h3 {
+    font-size: 12px;
+    color: #666;
+}
+

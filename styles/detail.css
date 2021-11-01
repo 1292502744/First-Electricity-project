@@ -1,0 +1,154 @@
+.detail_top_img a {
+    width: 418px;
+    height: 418px;
+    display: block;
+    border: 1px solid #dddddd;
+}
+
+.shop_font a{
+    color: black;
+    line-height: 80px;
+}
+
+.detail_mediu a{
+    display: block;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #dddddd;
+    float: left;
+    margin-top: 10px;
+}
+
+.detail_mediu a:nth-child(2) {
+    margin-left: 17px;
+}
+.detail_mediu a:nth-child(3) {
+    margin-left: 17px;
+}
+.detail_mediu a:nth-child(4) {
+    margin-left: 17px;
+}
+
+.detail_fint {
+    margin-left: 40px;
+}
+.detail_fint p {
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.detail_fint span {
+    margin-left: 5px;
+    color: #666666;
+    font-weight: 200;
+}
+
+.detail_fint a:nth-child(1) {
+    font-size: 28px;
+    color: #666666;
+    font-weight: 600;
+}
+
+.detail_fint p:nth-child(10) {
+    color: #666666;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.detail_fint p:nth-child(11) {
+    color: #666666;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.detail_fint p:nth-child(12) {
+    color: #666666;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.detail_fint_minus {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 30px;
+}
+
+.detail_fint_add{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 30px;
+}
+
+.detail_fint_ipt {
+    outline: none;
+    width: 48px;
+    height: 28px;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+}
+
+.detail_fint_shop {
+    margin-top: 20px;
+}
+
+.detail_fint_buy {
+    margin-top: 100px;
+}
+
+.detail_fint_buy input:nth-child(1) {
+    width: 134px;
+    height: 37px;
+    border: 1px solid #dddddd;
+    font-size: 17px;
+    background-color: #f5f5f5;
+}
+
+.detail_fint_buy input:nth-child(1):hover {
+    background-color: #ee0055;
+    color: #f0f0f0;
+    cursor: pointer;
+}
+
+.detail_fint_buy input:nth-child(2) {
+    margin-left: 30px;
+    width: 134px;
+    height: 37px;
+    border: 1px solid #dddddd;
+    font-size: 17px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.detail_fint_buy input:nth-child(2):hover {
+    background-color: #ee0055;
+    color: #fff;
+}
+
+.detail_detail {
+    width: 120px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #ee0055;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+.style {
+    border-top: 1px solid #dddddd;
+    width: 1200px;
+    line-height: 30px;
+    text-indent: 2rem;
+    font-size: 17px;
+}
+
+.style a {
+    color: black;
+}

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../public/public_images/font_smbuwzkxv08/iconfont.js"></script>
+    <meta name="description"
+        content="美妆商城-专业的美妆类网上购物商城，为您提供正品低价的购物选择、优质便捷的服务体验。商品来自全球各种美妆品牌商家。包括香水，口红，粉底，眼影，高光，美瞳。品类繁多，满足您的化妆品需求。">
+    <meta name="Keywords" content="美妆购物,化妆品,彩妆,香水,口红,眼影,粉底,美妆蛋,高光，美瞳。">
+    <title>美妆商城-正品低价、品质保障、配送及时、轻松购物！</title>
+    <meta name="author" content="马齐嵘,18591282707">
+    <link rel="stylesheet" href="../public/base.css">
+    <link rel="stylesheet" href="../public/common.css">
+    <link rel="stylesheet" href="../styles/shopping.css">
+    <script src="../package/jquery1.12.4.js"></script>
+    <script src="../script/shopping.js"></script>
+</head>
+
+<body>
+    <div class="public_nav">
+        <div class="nav_center">
+            <!-- 顶部导航栏 -->
+            <div class="center_cont">
+                <div class="center_left">
+                    <span>您好 欢迎来到美妆商城！</span>
+                    <span><a href="">请登录</a></span>
+                    <span><a href="">免费注册</a></span>
+                </div>
+                <div class="center_right">
+                    <span><a href="">我的美妆</a></span>
+                    <span>|</span>
+                    <span><a href="">关注品牌</a></span>
+                    <span>|</span>
+                    <span><a href="">购物车</a></span>
+                    <span>|</span>
+                    <span><a href="">收藏夹</a></span>
+                    <span>|</span>
+                    <span><a href="">商家入驻</a></span>
+                    <span>|</span>
+                    <span><a href="">帮助中心</a></span>
+                </div>
+            </div>
+            <!-- 标题，搜索框 -->
+            <div class="public_neck">
+                <h1>美妆商城</h1>
+                <div class="neck_right">
+                    <div class="neck_search">
+                        <input type="text" class="neck_input" placeholder="请输入关键字">
+                        <div class="neck_glass">
+                            <svg class="icon neck_seachs" aria-hidden="true">
+                                <use xlink:href="#icon-sousuo"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="neck_image img">
+                        <p class="neck_font">关注微信</p>
+                        <img src="../public/public_images/1_03.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- 产品分类导航栏 -->
+            <div class="center_classification">
+                <div class="all_classification">
+                    <svg class="icon classification_icon" aria-hidden="true">
+                        <use xlink:href="#icon-fenlei"></use>
+                    </svg>
+                    <span>所有产品分类</span>
+                </div>
+                <span>首页</span>
+                <span>官方直售</span>
+                <span>会员专享</span>
+                <span>线上专柜</span>
+            </div>
+        </div>
+        <div class="center_line"></div>
+        <!-- 主体 -->
+        <div class="public_body">
+            <!-- 左边竖导航栏 -->
+            <div class="shopping_left">
+                <div>
+                    <div class="left_title">
+                        <span>资料管理</span>
+                    </div>
+                    <p class="left_cont">个人资料</p>
+                    <p class="left_cont">实名认证</p>
+                    <p class="left_cont ">收货信息</p>
+                </div>
+                <div>
+                    <div class="left_title">
+                        <span>订单管理</span>
+                    </div>
+                    <p class="left_cont">全部订单</p>
+                    <p class="left_cont">未支付订单</p>
+                    <p class="left_cont">已支付订单</p>
+                </div>
+                <div>
+                    <div class="left_title">
+                        <span>我的交易</span>
+                    </div>
+                    <p class="left_cont">我的关注</p>
+                    <p class="left_cont">我的收藏</p>
+                    <p class="left_cont">我的评价</p>
+                </div>
+            </div>
+            <!-- 购物车内容 -->
+            <div class="shopping_right">
+                <!-- 购物车标题 -->
+                <div class="shopping_right_head">
+                    <i></i> <span>购物车</span>
+                </div>
+                <!-- 购物车操作台 -->
+                <div class="shopping_right_body clearfix">
+                    <div>
+                        <table>
+                            <!-- 表格头部 -->
+                            <thead>
+                                <tr>
+                                    <th><input type="checkbox" class="shopping_head_check" id="checkall">全选</th>
+                                    <th>商品信息</th>
+                                    <th>单价（元）</th>
+                                    <th>数量</th>
+                                    <th>总金额</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <!-- 表格主体（动态） -->
+                            <tbody>
+                                <tr>
+                                    <td><input type="checkbox" class="shopping_check"><em></em></td>
+                                    <td>韩束150g墨菊氨基酸洁面乳-深度保湿</td>
+                                    <td class="shopping_price">75.50</td>
+                                    <td class="shopping_val"><button class="shopping_reduce">-</button><input
+                                            type="text" value="1" class="shopping_quantity"><button
+                                            class="shopping_add">+</button></td>
+                                    <td class="shopping_total">75.50</td>
+                                    <td class="shopping_delete"><span>删除</span></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" class="shopping_check"><em></em></td>
+                                    <td>韩束150g墨菊氨基酸洁面乳-深度保湿</td>
+                                    <td class="shopping_price">65.00</td>
+                                    <td class="shopping_val"><button class="shopping_reduce">-</button><input
+                                            type="text" value="1" class="shopping_quantity"><button
+                                            class="shopping_add">+</button></td>
+                                    <td class="shopping_total">65.00</td>
+                                    <td class="shopping_delete"><span>删除</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- 结算 -->
+                        <div class="shopping_close clearfix">
+                            <h3>共<span>0</span>件商品,总价（不含运费）：</h3>
+                            <h1>￥<span>0.00</span></h1><button>结算</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 最近收藏 -->
+                <div class="shopping_collect_box clearfixborder">
+                    <div class="shopping_collect clearfix">
+                        <div class="shopping_collect_head"><i></i><span>最近收藏</span></div>
+                        <ul class="clearfix">
+                            <li><img src="../images/图层343.png" alt="">
+                                <p>￥<span>178.00</span></p>
+                                <h3>Olay/玉兰油 多效修护霜 (紧致肌肤 滋润淡化细纹)</h3>
+                            </li>
+                            <li><img src="../images/图层343.png" alt="">
+                                <p>￥<span>178.00</span></p>
+                                <h3>Olay/玉兰油 多效修护霜 (紧致肌肤 滋润淡化细纹)</h3>
+                            </li>
+                            <li><img src="../images/图层343.png" alt="">
+                                <p>￥<span>178.00</span></p>
+                                <h3>Olay/玉兰油 多效修护霜 (紧致肌肤 滋润淡化细纹)</h3>
+                            </li>
+                            <li><img src="../images/图层343.png" alt="">
+                                <p>￥<span>178.00</span></p>
+                                <h3>Olay/玉兰油 多效修护霜 (紧致肌肤 滋润淡化细纹)</h3>
+                            </li>
+                            <li><img src="../images/图层343.png" alt="">
+                                <p>￥<span>178.00</span></p>
+                                <h3>Olay/玉兰油 多效修护霜 (紧致肌肤 滋润淡化细纹)</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 下方关于模板块 -->
+        <div class="public_bottom">
+            <div class="bottom_center">
+                <div class="bottom_cont">
+                    <ul>
+                        <li>购物指南</li>
+                        <li>新手指南</li>
+                        <li>常见问题</li>
+                        <li>帮助中心</li>
+                        <li>用户协议</li>
+                    </ul>
+                </div>
+                <div class="bottom_cont ">
+                    <ul>
+                        <li>关于我们</li>
+                        <li>关于我们</li>
+                        <li>加入我们</li>
+                        <li>联系我们</li>
+                    </ul>
+                </div>
+                <div class="bottom_cont">
+                    <ul>
+                        <li>支付方式</li>
+                        <li>快捷支付</li>
+                        <li>信用卡</li>
+                        <li>货到付款</li>
+                    </ul>
+                </div>
+                <div class="bottom_cont">
+                    <ul>
+                        <li>商家服务</li>
+                        <li>商家入驻</li>
+                        <li>商家中心</li>
+                        <li>物流服务</li>
+                    </ul>
+                </div>
+                <div class="bottom_cont">
+                    <p>关注微信</p>
+                    <div class="neck_image">
+                        <img src="../public/public_images/1_03.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 尾部网页信息 -->
+        <div class="public_tail">
+            <div class="tail_center">
+                <p class="tail_first">
+                    <span><a href="">天猫</a></span>
+                    <span>|</span>
+                    <span><a href="">京东</a></span>
+                    <span>|</span>
+                    <span><a href="">YunOS</a></span>
+                    <span>|</span>
+                    <span><a href="">阿里通信</a></span>
+                    <span>|</span>
+                    <span><a href="">万网</a></span>
+                    <span>|</span>
+                    <span><a href="">高德</a></span>
+                    <span>|</span>
+                    <span><a href="">优视</a></span>
+                    <span>|</span>
+                    <span><a href="">友盟</a></span>
+                    <span>|</span>
+                    <span><a href="">虾米</a></span>
+                    <span>|</span>
+                    <span><a href="">天天动听</a></span>
+                </p>
+            </div>
+            <p class="tail_second">
+                Copyright © 2008-2016 vip.com，All Rights Reserved 粤ICP备08114786号
+            </p>
+            <p class="tail_second">
+                版权所有 美妆商城
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

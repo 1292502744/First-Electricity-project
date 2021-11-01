@@ -1,0 +1,73 @@
+.shop_font a{
+    font-size: 16px;
+    color: black;
+}
+
+.shop_mediu {
+    border: 1px solid #dddddd;
+    width: 100%;
+    height: 33px;
+    margin-top: 30px;
+}
+
+.shop_mediu a {
+    display: block;
+    color: black;   
+    text-align: center;
+}
+
+.shop_mediu li:hover {
+    width: 80px;
+    height: 35px;
+    background-color: #dddddd;
+    color: #ee0055;
+}
+
+.shop_mediu a:hover {
+    color: #ee0055;
+}
+
+.shop_mediu li {
+    width: 80px;
+    height: 35px;
+    float: left;
+    line-height: 35px;
+}
+
+.shop_olay {
+    width: 228px;
+    height: 328px;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.shop_olay_top {
+    margin-top: 1px;
+    width: 100%;
+}
+
+.shop_olay p:nth-child(2) {
+    color: #ee0055;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.shop_olay a:nth-child(3) {
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.shop_olay p:nth-child(4) {
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.shop_olay span {
+    color: #ee0055;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 600;
+}

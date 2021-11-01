@@ -135,7 +135,7 @@ a{
 }
 
 .Email{
-    width: 150px;
+    width: 190px;
     height: 30px;
     border-radius: 50px;
     border:1px solid #666;
@@ -154,7 +154,7 @@ a{
     border:1px solid #666;
     outline: none;
     left: 35px;
-    text-indent: 20px;
+    text-indent: 75px;
     float: left;
 }
 
@@ -190,6 +190,10 @@ a{
     font-weight: 600;
     text-align: center;
     line-height: 45px;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
 }
 
 .overall{
@@ -287,15 +291,18 @@ a{
 }
 
 .Enter{
-    width: 100px;
+    width: 70px;
     height: 30px;
     border-radius: 20px;
     border: 1px solid #ee0055; 
     float: right;
     position: absolute;
     right: 45px;
+    background-color: #fff;
 
-    font-size: 15px;
+    cursor: pointer;
+
+    font-size: 10px;
     color: #ee0055;
     text-align: center;
     line-height: 30px;

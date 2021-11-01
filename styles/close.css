@@ -1,0 +1,218 @@
+.border {
+    border: 1px solid black;
+}
+
+/* 左边竖导航栏 */
+
+.close_left {
+    float: left;
+}
+
+/* 右边购物车内容 */
+
+.close_right {
+    width: 930px;
+
+    float: right;
+}
+
+.close_right_head {
+    width: 100%;
+    border-bottom: 2px solid #e05;
+}
+
+.close_right_head i {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    
+    background: #e05;
+
+    vertical-align: middle;
+
+    margin-left: 10px;
+}
+
+.close_right_head span {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #333;
+
+    margin-left: 5px;
+}
+
+.close_right_body
+{
+    padding-top: 26px;
+    padding-left: 10px;
+}
+
+.close_right_body table {
+    width: 908px;
+
+    border: 1px solid #ddd;
+    border-collapse:collapse;
+    
+    text-align: center;
+}
+
+.close_right_body table thead tr{
+    text-indent: 10px;
+    line-height: 50px;
+
+    color: black;
+    background-color: #f1f1f1;
+}
+
+.close_right_body table thead tr th {
+    font-size: 14px;
+    font-weight: 600; 
+}
+
+.close_right_body table thead tr th:first-child {
+    width: 350px;
+}
+
+.close_right_body table tbody tr{
+    border-bottom: 1px dashed #ddd;
+
+    font-size: 12px;
+    line-height: 50px;
+    text-indent: 10px;
+    color: #666;
+}
+
+.close_right_body table tbody tr td:first-child {
+    text-align: left;
+}
+
+.close_right_body table tbody tr em{
+    display: inline-block;
+    width: 70px;
+    height: 55px;
+
+    margin-top: 9px;
+    margin-right: 30px;
+    margin-bottom: 9px;
+
+    background: url('../images/图层336.png') no-repeat;
+    background-position: -13px -15px;
+    vertical-align: -50%;
+}
+
+.close_right_body table tbody tr td button {
+    width: 30px;
+    height: 35px;
+
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #000;
+
+    background: #f0f0f0;
+}
+
+.close_quantity {
+    width: 30px;
+    height: 35px;
+
+    text-align: center;
+}
+
+.close_right_body table tbody tr td select {
+    border: 1px solid #ddd;
+ 
+    color: #666;
+
+    padding: 5px;
+
+    outline: none;
+}
+
+.close_message {
+    width: 906px;
+
+    border: 1px solid #ddd;
+
+    margin-top: 10px;
+}
+
+.close_message h1 {
+    width: 100%;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    text-indent: 10px;
+    line-height: 50px;
+
+    background-color: #f1f1f1;
+}
+
+.close_message h2 {
+    font-size: 12px;
+    color: #e05;
+    
+    padding: 20px 10px;
+}
+
+.close_message p {
+    margin-bottom: 20px;
+}
+
+.close_message p input {
+    margin: 0 10px;
+}
+
+.close_message p span {
+    font-size: 14px;
+    color: #666;
+}
+
+.close_box {
+    float: right;
+
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 160px;
+}
+
+.close_box div {
+    width: 100%;
+}
+
+.close_box div i {
+    display: inline-block;
+    width: 50%;
+
+    font-size: 14px;
+    line-height: 30px;
+    color: #666;
+    text-align: right;
+}
+
+.close_box div em {
+    display: inline-block;
+    width: 50%;
+
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #e05;
+    text-align: right;
+}
+
+.close_box div button {
+    width: 160px;
+    height: 45px;
+    margin-top: 10px;
+    
+    border-radius: 5px;
+
+    background: #e05;
+
+    font-size: 18px;
+    line-height: 45px;
+    color: #fff;
+}

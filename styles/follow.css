@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../package/fonts/icomoon.eot?yro1xv');
+    src:  url('../package/fonts/icomoon.eot?yro1xv#iefix') format('embedded-opentype'),
+      url('../package/fonts/icomoon.ttf?yro1xv') format('truetype'),
+      url('../package/fonts/icomoon.woff?yro1xv') format('woff'),
+      url('../package/fonts/icomoon.svg?yro1xv#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+.left_settled {
+    position: relative;
+    color: #ee0055;
+    
+    border-left: 1px solid #ee0055;
+}
+
+.left_settled>span {
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.body_right {
+    width: 936px;
+    float: right;
+}
+
+.right_title {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #ee0055;
+
+    line-height: 50px;
+}
+
+.right_title :first-child {
+    color: #ee0055;
+    font-size: 12px;
+
+    margin-left: 10px;
+}
+
+.right_title :last-child {
+    font-size: 18px;
+    color: #333;
+}
+
+.left_top {
+    width: 230px;
+    height: 50px;
+
+    line-height: 50px;
+    background-color: #ee0055;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+.right_box {
+    margin: 20px auto;
+
+    width: 910px;
+    border: 1px solid #ddd;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.box_top {
+    width: 100%;
+    height: 50px;
+    background-color: #f1f1f1;
+}
+
+.box_top>p {
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    color: #333;
+}
+
+.box_top>p:first-child {
+    width: 110px;
+}
+
+.box_top>p:nth-child(2) {
+    width: 210px;
+}
+
+.box_top>p:nth-child(3) {
+    width: 330px;
+}
+
+.box_top>p:last-child {
+    width: 260px;
+}
+
+.box_top::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.box_neck {
+    width: 890px;
+    height: 75px;
+    border-bottom: 1px dashed #ddd;
+}
+
+.neck_conts {
+    float: left;
+    /* display: none; */
+}
+
+.neck_conts:first-child {
+    display: block;
+}
+
+.neck_big {
+    padding-left: 20px;
+}
+
+.neck_big::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.neck_float {
+    float: left;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    line-height: 75px;
+}
+
+.commodity {
+    margin-top: 10px;
+}
+
+.commodity>img {
+    height: 60px;
+}
+
+.neck_float:nth-child(2) {
+    width: 220px;
+    margin-left: 25px;
+}
+
+.neck_float:nth-child(3) {
+    width: 330px;
+}
+
+.box_button {
+    margin-left: 10px;
+    width: 230px;
+}
+
+.box_button>button {
+    width: 40px;
+    height: 22px;
+    color: #fff;
+    line-height: 22px;
+    background-color: #ee0055;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+.box_neck::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.box_page {
+    margin-left: 670px;
+    margin-top: 40px;
+
+    cursor: pointer;
+}
+
+.page_num,.page_icon {
+    float: left;
+    width: 38px;
+    height: 38px;
+    margin-right: 5px;
+
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 38px;
+    color: #666;
+}
+
+.box_page::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.page_icon {
+    font-family: 'icomoon';
+}
+
+.page_red {
+    background-color: #ee0055;
+    color: #fff;
+}
+
+.arrow_none {
+    display: none;
+}
+
+.left_cont {
+    cursor: pointer;
+}
+
+.right_height {
+    width: 890px;
+    height: 520px;
+    /* overflow: hidden; */
+}
+
+.hide_box {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background-color: rgb(0, 0, 0,.1);
+    display: none;
+}
+
+.hide_check {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.hide_but>button {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.hide_cancel {
+    margin-left: 50px;
+}
+
+.hide_confirm {
+    background-color: #ee0055;
+    color: #fff;
+}

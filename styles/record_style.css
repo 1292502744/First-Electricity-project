@@ -111,7 +111,7 @@ a{
     border:1px solid #666;
     outline: none;
     left: 35px;
-    text-indent: 20px;
+    text-indent: 75px;
     float: left;
 }
 
@@ -178,6 +178,10 @@ a{
     font-weight: 600;
     text-align: center;
     line-height: 45px;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
 }
 
 /* 赞助 */
@@ -192,28 +196,8 @@ a{
     margin-top: 40px;
 }
 
-.paste{
-    display: inline-block;
-    width: 55px;
-    text-align: right;
-    color: #666;
-    position: absolute;
-    z-index: 1;
-    top: 5px;
-    left: 45px;
-}
-
-.paste_C{
-    display: inline-block;
-    width: 55px;
-    text-align: right;
-    color: #666;
-    position: absolute;
-    z-index: 1;
-    top: 5px;
-    left: 45px;
-}
-
+.paste,
+.paste_C,
 .paste_P{
     display: inline-block;
     width: 55px;
