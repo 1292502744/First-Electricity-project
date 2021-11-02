@@ -69,6 +69,10 @@ a {
     padding-left: 10px;
 }
 
+#go_out {
+    display: none;
+}
+
 .content {
     width: 100%;
     border-bottom: 2px solid #ee0055;

@@ -8,7 +8,6 @@ $(function () {
         $(this).parents('tr').remove();
     })
 
-    $address.css("display", "none").clone(true).removeAttr("id");
 
     $.ajax({
         type: "get",
@@ -17,7 +16,16 @@ $(function () {
             res.setRequestHeader("token", token);
         },
         success: function (response) {
-            console.log(response);
+            var data = response.data;
+            console.log(data);
+            data.some(function (item) {
+                console.log(item);
+                var newAddress = $address.clone(true).removeAttr("id");
+                newAddress.children().eq(0).text(item.name);
+                newAddress.children().eq(1).text(item.phone);
+                newAddress.children().eq(2).text(item.province + item.city + item.county + item.detail);
+                $("table tr").eq(0).after(newAddress)
+            })
         }
     });
 

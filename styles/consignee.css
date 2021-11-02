@@ -111,6 +111,10 @@
     margin-right: 5px;
 }
 
+.consignee_message_body table #address {
+    display: none;
+}
+
 .consignee_table_last a{
     font-size: 14px;
     color: #e05;

@@ -2,7 +2,8 @@ $(function () {
     var $username = $("#username");
     var $loginIn = $("#login_in");
     var $register = $("#register");
-    var $myMagic = $("ul").find(".my_magic")
+    var $myMagic = $("ul").find(".my_magic");
+    var $goOut = $("#go_out");
     var cookie = new Cookie();
     var token = cookie.get("token");
 
@@ -36,13 +37,14 @@ $(function () {
                 var username = response.data.username;
                 $username.text(`您好，${username}欢迎来到美妆商城!`)
                 $loginIn.css("display", "none");
-                $register.text(`退出登录`);
+                $register.css("display", "none");
+                $goOut.css("display", "block");
             } else {
                 $username.css("display", "none");
                 $loginIn.css("display", "block");
                 $register.text(`免费注册`);
             }
-            $register.on("click", function () {
+            $goOut.on("click", function () {
                 cookie.clear("token")
                 location.reload(true);
             })
