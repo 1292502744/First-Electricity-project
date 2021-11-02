@@ -2,7 +2,7 @@
          Cookie.prototype.set = function (key,value,time) {
             var date = new Date();
             date.setTime(date.getTime() + time);
-            document.cookie = key + '=' + value + '; '+ 'expires=' + date.toUTCString();
+            document.cookie = key + '=' + value + '; path=' + '/' + '; '+ 'expires=' + date.toUTCString();
          }
          Cookie.prototype.get = function (key) {
             //  首先要获取到cookie的所有的值  将获取到的值赋给cook变量

@@ -13,6 +13,7 @@ $(function () {
                 var src = this.value;
                 $(".preview").eq(i).css("display", "block");
                 $(".preview").eq(i).attr('src', src);
+				console.log(this.files)
             } else {
                 var file = this.files[0];
                 // console.log(file.size); 
@@ -21,8 +22,9 @@ $(function () {
                     alert("文件太大，撑不住~~~");
                 } else if (window.FileReader) {
                         var reader = new FileReader();   
-                        reader.readAsDataURL(file);   
+                        reader.readAsDataURL(file);  
                         //监听文件读取结束后事件    
+						console.log(reader)
                         reader.onload = function (e) {
                             if (reader.readyState === 2) {
                                 $(".preview").eq(i).attr("src",e.target.result);    //e.target.result就是最后的路径地址
