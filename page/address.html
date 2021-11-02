@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="../public/base.css">
     <link rel="stylesheet" href="../public/common.css">
     <link rel="stylesheet" href="../styles/address.css">
+    <script src="../package/jquery1.12.4.js"></script>
+    <script src="../package/cookie.js"></script>
+    <script src="../script/address.js"></script>
 </head>
 
 <body>
@@ -121,20 +124,20 @@
                     <!-- 详细地址（省级联动） -->
                     <div class="address_input">
                         <em class="address_text"><span>详细地址：</span></em>
-                        <select name="" id="">
-                            <option value="" selected>陕西</option>
-                            <option value="">湖南</option>
-                            <option value="">广东</option>
+                        <select name="" id="province">
+                            <option value="" selected>--请选择省--</option>
+                            <!-- <option value="">湖南</option>
+                            <option value="">广东</option> -->
                         </select>
-                        <select name="" id="">
-                            <option value="" selected>榆林市</option>
-                            <option value="">西安市</option>
-                            <option value="">渭南市</option>
+                        <select name="" id="city">
+                            <option value="" selected>--请选择市--</option>
+                            <!-- <option value="">西安市</option>
+                            <option value="">渭南市</option> -->
                         </select>
-                        <select name="" id="">
-                            <option value="" selected>绥德县</option>
-                            <option value="">子洲县</option>
-                            <option value="">清涧县</option>
+                        <select name="" id="district">
+                            <option value="" selected>--请选择区--</option>
+                            <!-- <option value="">子洲县</option>
+                            <option value="">清涧县</option> -->
                         </select>
                         <input type="text" placeholder="XX路-XX小区-X号楼" style="width: 200px;">
                     </div>

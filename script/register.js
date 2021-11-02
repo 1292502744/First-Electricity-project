@@ -163,7 +163,7 @@ $("#User").on("blur", function () {
                if (data.code == 0) {
                    alert("注册成功，3秒后跳转登录页面");
                    setInterval(function () {
-                       location.href = "http://127.0.0.1:5500/page/record.html";
+                       location.href = "http://127.0.0.1/First-Electricity-project/page/record.html";
                    })
                }
             }

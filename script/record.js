@@ -35,8 +35,8 @@ $(function () {
             success: function (response) {
                 if (response.code == 0) {
                     var token = response.token;
-                    cookie.set("token", token, 20000);
-                    location.href = "http://127.0.0.1:5500/idnex.html";
+                    cookie.set("token", token, 43200000);
+                    location.href = "http://127.0.0.1/First-Electricity-project/index.html";
                 }
             },
         });

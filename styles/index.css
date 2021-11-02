@@ -43,8 +43,11 @@ a {
     color: #666666;
     line-height: 30px;
 }
+
 .nav_left a {
+    float: left;
     color: #666666;
+    margin-right: 15px;
 }
 
 .nav_left li {
@@ -62,7 +65,7 @@ a {
     margin-left: -7px;
 }
 
-.nav_left a :nth-child(1) {
+.nav_left a:nth-child(1) {
     padding-left: 10px;
 }
 
