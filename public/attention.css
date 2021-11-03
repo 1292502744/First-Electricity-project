@@ -228,6 +228,45 @@ h1 {
     display: block;
     content: "";
 }
+
+/*  删除确认 */
+.hide_box {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background-color: rgb(0, 0, 0,.1);
+    display: none;
+}
+
+.hide_check {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.hide_but>button {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.hide_cancel {
+    margin-left: 50px;
+}
+
+.hide_confirm {
+    background-color: #ee0055;
+    color: #fff;
+}
 /* 下方关于模板块 */
 .public_bottom {
     margin-top: 80px;

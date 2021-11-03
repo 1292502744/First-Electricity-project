@@ -29,8 +29,8 @@ $(function () {
     $.ajax({
         type: "get",
         url: "http://1.14.68.137:8000/userinfo/",
-        beforeSend: function (res) {
-            res.setRequestHeader("token", token);
+        headers: {
+            token: token
         },
         success: function (response) {
             if (response.code == 0) {
@@ -54,4 +54,13 @@ $(function () {
     function jumpTo(url) {
         location.href = url
     }
+
+
+    $.ajax({
+        type: "get",
+        url: "http://1.14.68.137:8000/index_images/",
+        success: function (response) {
+            console.log(response);
+        }
+    });
 })

@@ -7,14 +7,14 @@ $(function () {
 
     // 点击切换验证码
     var uid = 1;
-    $('.Num').click(function(){
+    $num.click(function(){
         uid++;
-        $('.Num').attr('src','http://1.14.68.137:8000/image_code/?uuid=' + uid);
+        $num.attr('src','http://1.14.68.137:8000/image_code/?uuid=' + uid);
     })
 
     // 验证码一分钟后过期  所以设个定时器 让验证码一分钟换一次
     var codeTime = setInterval(function () {
-        $('.Num').click();
+        $num.click();
     }, 60000)
 
     // 当验证码的input框获取倒焦点时  停止定时器
