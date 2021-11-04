@@ -63,4 +63,10 @@ $(function () {
             console.log(response);
         }
     });
+	
+	new Promise(function (resolved, rejected) {
+		resolved('1');
+	}).then((result) => {
+		console.log(result)
+	})
 })
